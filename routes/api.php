@@ -23,6 +23,5 @@ Route::group([
 	Route::post('registros/{id}', 'expertosController@showRecord');
     Route::post('login', 'JWTAuthController@login');
     Route::post('logout', 'JWTAuthController@logout');
-    
 
 });

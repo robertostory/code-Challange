@@ -63,7 +63,6 @@ class Handler extends ExceptionHandler
             return response()->json( [ 'success' => 0, 'message' => 'Not Found!' ], 404);
         }
 
-
         return parent::render($request, $exception);
     
     }

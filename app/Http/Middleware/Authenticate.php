@@ -7,7 +7,7 @@ use Illuminate\Auth\Middleware\Authenticate as Middleware;
 
 class Authenticate extends Middleware
 {
-    // Override handle method
+    
     public function handle($request, Closure $next, ...$guards)
     {
         if ($this->authenticate($request, $guards) === 'authentication_failed') {
@@ -15,8 +15,8 @@ class Authenticate extends Middleware
         }
         return $next($request);
     }
-    
-    // Override authentication method
+
+  
     protected function authenticate($request, array $guards)
     {
         if (empty($guards)) {

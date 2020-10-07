@@ -21,7 +21,6 @@ class expertosController extends Controller
      */
     public function showRecord($id)
     {
-
     	
     	 $result = $this->scoring($id);
 
@@ -35,7 +34,6 @@ class expertosController extends Controller
 
     	 }
         
-
     }
 
     /*Asignacion de Experto a clientes */
