@@ -1,6 +1,6 @@
 ###### Obtener repositorio completo
 ```
-git@github.com:robertostory/resb-iahorro.git
+git@github.com:robertostory/code-Challange.git
 ```
 
 ###### Actulizar el repositorio ante cualquier cambio
