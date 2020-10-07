@@ -13,6 +13,15 @@ Composer update
 php artisan crearDatabase iahorro
 ```
 
+Configurar archivo .env actualizando (nombre de Base de datos es iahorro)
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=iahorro
+DB_USERNAME=usuario de mysql
+DB_PASSWORD=password de mysql
+
 ###### Creamos las tablas y cargamos la informacion DEMO para la prueba.
 ```
 php artisan migrate:fresh --seed
